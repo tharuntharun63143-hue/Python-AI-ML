@@ -1,0 +1,7 @@
+a = [85,90,78,92,88]
+avg=sum(a)/len(a)
+print(avg)
+max_list = max(a)
+print(max_list)
+min_list = min(a)
+print(min_list)
