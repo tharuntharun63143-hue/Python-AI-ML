@@ -1,0 +1,9 @@
+items = ['Milk','bue','sugar']
+print(items)
+print(items[0:2])
+items.append('biscute')
+print(items)
+items.remove('bue')
+print(items)
+items.sort()
+print(items)

@@ -1,0 +1,24 @@
+# example of class mini project-1
+
+class car:
+    def __init__(self,brand,year,color):
+        self.brand = brand
+        self.year = year
+        self.color = color
+    def drive(self):
+        return  f" the {self.brand},{self.year},{self.color} Is driving."
+car1 = car("BMW","2005","blue")
+car2 = car("lambogiren","2000","Yellow")
+print(car1.drive())
+print(car2.drive())
+
+# example of class mini project-2
+
+class bike:
+     def __init__(self,brand,color):
+         self.brand = brand
+         self.color = color
+     def ride(self):
+        return f" the {self.brand},{self.color} Is going."
+bike1 = bike("Royalenfield","Black")
+print(bike1.ride())
