@@ -1,0 +1,22 @@
+a = 100
+b = 200
+print("addition:",a+b)
+print("sub :", a-b)
+print("mult:",a*b)
+print("div:",a/b)
+print("Is a a>b?:",a>b)
+print("Is a a==100:",a==100)
+print("check:",(a<200) and (a==100))
+
+marks = 90
+if marks>=90:
+    print("Grade:A")
+elif marks>=80:
+    print("Grade:B")
+else:
+    print("Grade:C")
+for i in range(20):
+    print("play:",i)
+count = 0
+while count>-1:
+    print("count:",count)

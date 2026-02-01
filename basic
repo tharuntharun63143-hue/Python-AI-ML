@@ -1,0 +1,9 @@
+# Python-AI-ML
+zero to advance Al/ML in python
+
+#print Statement
+
+name = "adithya"
+age = 24
+_is_student = "False"
+print(name,age,_is_student)
